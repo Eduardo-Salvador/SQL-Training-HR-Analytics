@@ -1,5 +1,5 @@
 -- ================================================
--- Basic SELECT queries — filters, aggregations, ordering
+-- Basic SELECT Queries: Filters, Aggregations, Ordering.
 -- ================================================
 
 -- Filter employees by department
@@ -101,7 +101,7 @@ FROM
     employees 
 ORDER BY 
     department_id ASC, 
-    salary DESC;
+    salary        DESC;
 
 -- Count employees per department
 SELECT 
