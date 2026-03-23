@@ -41,7 +41,6 @@ The advanced layer covers CTEs for readable multi-step logic, window functions f
 
 The programmability layer covers server-side logic: stored procedures with IN and OUT parameters and transaction control, user-defined functions in both LANGUAGE SQL and LANGUAGE plpgsql with IF/ELSE logic and RETURNS TABLE, and triggers that fire automatically on INSERT, UPDATE and DELETE events.
 
-
 ## Setup
 
 Clone the repository and start the database:
@@ -78,6 +77,8 @@ Run the schema and seed files in order:
 ## Schema
 
 The project uses a fictional HR dataset with 6 tables: locations, roles, departments, employees, performance_reviews and salary_history. Employees have departments, roles, performance reviews and salary history records.
+
+<img width="1425" height="832" alt="image" src="https://github.com/user-attachments/assets/ee2cdc38-5474-4f63-b831-10488983e115" />
 
 ## Queries
 
@@ -166,6 +167,8 @@ Execute os arquivos de schema e seed nessa ordem:
 ## Schema
 
 O projeto usa um dataset fictício de RH com 6 tabelas: locations, roles, departments, employees, performance_reviews e salary_history. Funcionários têm departamentos, cargos, avaliações de performance e histórico salarial.
+
+<img width="1425" height="832" alt="image" src="https://github.com/user-attachments/assets/ee2cdc38-5474-4f63-b831-10488983e115" />
 
 ## Queries
 
