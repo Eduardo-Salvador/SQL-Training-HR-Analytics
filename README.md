@@ -1,7 +1,5 @@
 <div align="center">
 
-<div align="center">
-
 [English](#sql-training--hr-analytics) · [Português-BR](#sql-learning--hr-analytics-1)
 
 [![Generic badge](https://img.shields.io/badge/STATUS-FINISHED-<COLOR>.svg)](https://shields.io/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)]([https://GitHub.com/Naereen/ama](https://github.com/Eduardo-Salvador))
