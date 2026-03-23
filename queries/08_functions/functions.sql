@@ -44,5 +44,28 @@ END;
 $$;
 
 -- Function overloading: same name different parameter types
+CREATE OR REPLACE FUNCTION full_name(fname VARCHAR, lname VARCHAR)
+RETURNS VARCHAR
+LANGUAGE SQL
+AS $$
+    SELECT fname || ' ' || lname;
+$$;
+
+CREATE OR REPLACE FUNCTION full_name(l_employee_id INTEGER)
+RETURNS VARCHAR
+LANGUAGE SQL
+AS $$
+    SELECT
+        CONCAT(d.first_name, ' ', d.last_name)
+    FROM
+        employees d
+    WHERE
+        l_employee_id = d.employee_id
+$$;
 
 -- Drop a function
+DROP FUNCTION full_name(INTEGER);
+
+DROP FUNCTION IF EXISTS full_name(VARCHAR, VARCHAR);
+
+DROP FUNCTION full_name(INTEGER) CASCADE;
