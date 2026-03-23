@@ -1,6 +1,6 @@
 <div align="center">
 
-[English](#sql-training--hr-analytics) · [Português-BR](#sql-learning--hr-analytics-1)
+[English](#sql-training--hr-analytics) · [Português-BR](#aprendizado-de-sql--análise-de-rh)
 
 [![Generic badge](https://img.shields.io/badge/STATUS-FINISHED-<COLOR>.svg)](https://shields.io/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)]([https://GitHub.com/Naereen/ama](https://github.com/Eduardo-Salvador))
 
@@ -46,11 +46,17 @@ The programmability layer covers server-side logic: stored procedures with IN an
 
 Clone the repository and start the database:
 
+</div>
+
     git clone https://github.com/Eduardo-Salvador/SQL-Training-HR-Analytics.git
     cd SQL-Training-HR-Analytics
     docker compose up -d
 
+<div align="center">
+
 Connect DBeaver to the database:
+
+</div>
 
     Host: localhost
     Port: 5432
@@ -58,10 +64,16 @@ Connect DBeaver to the database:
     Username: postgres
     Password: admin123
 
+<div align="center">
+
 Run the schema and seed files in order:
+
+</div>
 
     schema/create_tables.sql
     schema/seed_data.sql
+
+<div align="center">
 
 ## Schema
 
@@ -85,7 +97,7 @@ The project uses a fictional HR dataset with 6 tables: locations, roles, departm
 
 ![Brazil](https://img.shields.io/badge/🇧🇷-Português-green)
 
-# SQL Learning — HR Analytics
+# Aprendizado de SQL — Análise de RH
 
 Projeto de aprendizado de SQL estruturado usando PostgreSQL, cobrindo desde os fundamentos até programação avançada de banco de dados. Construído como projeto de portfólio demonstrando progressão de habilidades em SQL.
 
@@ -122,11 +134,17 @@ A camada de programabilidade cobre lógica server-side: stored procedures com pa
 
 Clone o repositório e suba o banco:
 
+</div>
+
     git clone https://github.com/Eduardo-Salvador/SQL-Training-HR-Analytics.git
     cd SQL-Training-HR-Analytics
     docker compose up -d
 
+<div align="center">
+
 Conecte o DBeaver ao banco:
+
+</div>
 
     Host: localhost
     Port: 5432
@@ -134,10 +152,16 @@ Conecte o DBeaver ao banco:
     Username: postgres
     Password: admin123
 
+<div align="center">
+
 Execute os arquivos de schema e seed nessa ordem:
+
+</div>
 
     schema/create_tables.sql
     schema/seed_data.sql
+
+<div align="center">
 
 ## Schema
 
@@ -158,3 +182,5 @@ O projeto usa um dataset fictício de RH com 6 tabelas: locations, roles, depart
 | queries/09_triggers/triggers.sql | Trigger AFTER UPDATE, trigger BEFORE DELETE, variáveis NEW e OLD, RAISE EXCEPTION |
 
 ---
+
+</div>
