@@ -8,7 +8,7 @@
 
 ![USA](https://img.shields.io/badge/🇺🇸-English-blue)
 
-# SQL Training — HR Analytics
+# SQL Training: HR Analytics
 
 A structured SQL learning project using PostgreSQL, covering fundamentals through advanced database programming. Built as a portfolio piece demonstrating progressive SQL proficiency.
 
@@ -98,7 +98,7 @@ The project uses a fictional HR dataset with 6 tables: locations, roles, departm
 
 ![Brazil](https://img.shields.io/badge/🇧🇷-Português-green)
 
-# Aprendizado de SQL — Análise de RH
+# Aprendizado de SQL: Análise de RH
 
 Projeto de aprendizado de SQL estruturado usando PostgreSQL, cobrindo desde os fundamentos até programação avançada de banco de dados. Construído como projeto de portfólio demonstrando progressão de habilidades em SQL.
 
